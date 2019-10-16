@@ -1,0 +1,118 @@
+.contact-page{
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.left_container{
+    float:left;
+    width: 40%;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+.image-container{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhzlrOzJZ4Sqq4Z6_NjRfDOmVEsxeXUiLtUK-4viG_BEHPTlMMlQ);
+	position: relative;
+    width: 100%;
+    padding-top: 30%;
+    overflow-y: hidden;
+}
+/*.cover{
+	 background-position: center bottom;
+	padding: 0px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+	width: 100%;
+	height: 100%;
+	position: absolute !important;
+	top: 0px;
+	left: 0px;
+	background: rgba(26,27,35);
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhzlrOzJZ4Sqq4Z6_NjRfDOmVEsxeXUiLtUK-4viG_BEHPTlMMlQ);
+	
+}*/
+.main-heading{
+	top: 50%;
+	transform: translateY(-50%);
+	position: relative;
+	padding-left: 50px;
+}
+.main-heading h1{
+	color: rgb(225,255,255);
+	position: relative;
+	text-align: left;
+	padding-top: 40px;
+}
+h1{
+	font-weight: 500;
+	margin-top: 500px !important;
+	font-weight: 500;
+	font-size: 25px;
+}
+.right_container{
+    width: 60%;
+    padding: 0px !important;
+}
+.content{
+	position: relative;
+	padding: 0px;
+	background: rgb(245,245,245);
+	margin-right: 0px;
+
+}
+.heading{
+	text-align: center;
+	padding: 60px 0px 20px;
+	font-weight: 500;
+	color: rgb(52,51,51);
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.contact p i{
+    font-size: 25px;
+    margin: 20px 0px;
+}
+.contact p{
+	text-align: center;
+	color: rgb(52,51,51);
+}
+.fa{
+	display: inline-block;
+}
+.footer{
+	padding: 10px 40px 6px;
+	background: rgba(26,27,35);
+	text-align: right;
+	width: 100%;
+	color: #fff;
+}
+.visit{
+    text-align: center;
+	padding: 60px 0px 20px;
+	font-weight: 500;
+	color: rgb(52,51,51);
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.sub-head{
+	font-size: 2rem;
+}
+.frame{
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-top: 20px;
+}
+.map1{
+	margin-top: 80px;
+	margin-right: 0px;
+	margin-left: 100px;
+}
+.icon1{
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}

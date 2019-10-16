@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+</head>
+<body>
+	<div class="container">
+		<h1 class="display-4 text-center my-4">Navbar & Navs</h1>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="dropdown">
+ 					<button type="button" class="btn btn-primary btn-block dropdown-toggle" data-toggle="dropdown">
+ 						1: Utilities	
+ 					</button>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">1.1 Basic Typography</a>
+						<a class="dropdown-item" href="#">1.2 Text ALignment & Display</a>
+						<a class="dropdown-item" href="#">1.3 Floats & Positions</a>
+						<a class="dropdown-item" href="#">1.4 Colors & Backgrounds</a>
+						<a class="dropdown-item" href="#">1.5 Spacing</a>
+						<a class="dropdown-item" href="#">1.6 Sizing</a>
+						<a class="dropdown-item" href="#">1.7 Breakpoints</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="dropdown">
+ 					<button type="button" class="btn btn-success btn-block dropdown-toggle" data-toggle="dropdown">
+						2: CSS Components
+					</button>	
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">2.1 Buttons</a>
+							<a class="dropdown-item" href="#">2.2 Navbar</a>
+							<a class="dropdown-item" href="#">2.3 List Groups & Badges</a>
+							<a class="dropdown-item" href="#">2.4 Forms</a>
+							<a class="dropdown-item" href="#">2.5 Input Groups</a>
+							<a class="dropdown-item" href="#">2.6 Alerts & Progress</a>
+							<a class="dropdown-item" href="#">2.7 Tables & Pagination</a>
+							<a class="dropdown-item" href="#">2.8 Cards</a>
+							<a class="dropdown-item" href="#">2.9 Media Objects</a>
+						</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+		    	<div class="dropdown">
+              		<button class="btn btn-warning btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                  		3: Grid & Flexbox
+              		</button>
+              			<div class="dropdown-menu">
+                  			<a class="dropdown-item" href="#">3.1 Grid System</a>
+                  			<a class="dropdown-item" href="#">3.2 Grid Alignment</a>
+                  			<a class="dropdown-item" href="#">3.3 Flexbox</a>
+                  			<a class="dropdown-item" href="#">3.4 Auto Margins & Wrap</a>
+              			</div>
+        		</div>
+        	</div>
+        	<div class="col-md-3">
+        		<div class="dropdown">
+        			<button class="btn btn-danger btn-block dropdown-toggle" type="button" data-togglr="dropdown">
+        				4: JavaScript Widgets 
+        			</button>
+        				<div class="dropdown-menu">
+        					<a href="#" class="dropdown-item">4.1 Carousel</a>
+        					<a href="#" class="dropdown-item">4.2 Collapse</a>
+        					<a href="#" class="dropdown-item">4.3 Tooptils</a>
+        					<a href="#" class="dropdown-item">4.4 Popovers</a>
+        					<a href="#" class="dropdown-item">4.5 Modals</a>
+        				</div>
+        		</div>
+        	</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container">
+
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+			<a href="#" class="navbar-brand">Navbar</a>
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#" class="nav-link">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">About</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Service</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Contact</a>
+				</li>
+			</ul>
+		</div>
+		</nav>
+		<br>
+
+		<!-- COLLAPSE NAV -->
+		<nav class="navbar navbar-expand-sm navbar-light bg-light">
+			<div class="container">
+			<a href="#" class="navbar-brand">Navbar</a>
+			<div class="navbar-collapse">
+			<ul class="navbar-nav justify-content-start">
+				<li class="nav-item">
+					<a href="#" class="nav-link">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">About</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Service</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Contact</a>
+				</li>
+			</ul>
+			</div>
+			</div>
+		</nav>
+		<br>
+
+		<!-- WITH FORMS -->
+		<nav class="navbar navbar-expand-sm navbar-light bg-light">
+			<div class="container">
+			<a href="#" class="navbar-brand">Navbar</a>
+			<div class="collase navbar-collapse">
+			<ul class="navbar-nav justify-content-start">
+				<li class="nav-item">
+					<a href="#" class="nav-link">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">About</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Service</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Contact</a>
+				</li>
+			</ul>
+			</div>
+			<form class="form-inline">
+				<input class="form-control mr-2" type="search" name="search" placeholder="Search..">
+				<button class="btn btn-outline-success" type="submit">Search</button>
+			</form>
+			</div>
+		</nav>
+		<br>
+
+		<!-- WITH DROPDOWN -->
+		<nav class="navbar navbar-expand-sm navbar-light bg-light">
+			<div class="container">
+			<a href="#" class="navbar-brand">Navbar</a>
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#" class="nav-link">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">About</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Dropdown</a>
+					<div class="dropdown-menu">
+						<a href="#" class="dropdown-item">Link 1</a>
+						<a href="#" class="dropdown-item">Link 2</a>
+						<a href="#" class="dropdown-item">Link 3</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Service</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Contact</a>
+				</li>
+			</ul>
+		</div>
+		</nav>
+		<br>
+
+		<!-- COLORS -->
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+			<div class="container">
+			<a href="#" class="navbar-brand">Navbar</a>
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#" class="nav-link">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link active">About</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Service</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Contact</a>
+				</li>
+			</ul>
+			</div>
+		</nav>
+			<br>
+			<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+			<div class="container">
+			<a href="#" class="navbar-brand">Navbar</a>
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#" class="nav-link">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">About</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Service</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Contact</a>
+				</li>
+			</ul>
+			</div>
+		</nav>
+		<br>
+		<nav class="navbar navbar-expand-sm navbar-dark bg-success">
+			<div class="container">
+			<a href="#" class="navbar-brand">Navbar</a>
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#" class="nav-link">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">About</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Service</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Contact</a>
+				</li>
+			</ul>
+			</div>
+		</nav>
+		<br>
+		<nav class="navbar navbar-expand-sm navbar-dark bg-danger">
+			<div class="container">
+			<a href="#" class="navbar-brand">Navbar</a>
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#" class="nav-link">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">About</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Service</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Contact</a>
+				</li>
+			</ul>
+			</div>
+		</nav>
+		<br>
+
+		<!-- NAV PILLS -->
+		<ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+        </ul>
+        <br>
+
+        <!-- HORIZONTAL ALIGNMENT -->
+        <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+        </ul>
+        <br>
+        <ul class="nav nav-pills justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+        </ul>
+        <br>
+
+        <!-- VERTICAL -->
+        <ul class="nav flex-column nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+        </ul>
+        <br>
+
+        <!-- FILLED NAVBAR -->
+         <ul class="nav nav-fill nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+        </ul>
+        <br>
+
+        <!-- WITH DROPDOWN -->
+        <ul class="nav nav-fill nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Dropdown</a>
+				<div class="dropdown-menu">
+					<a href="#" class="dropdown-item">Link 1</a>
+					<a href="#" class="dropdown-item">Link 2</a>
+					<a href="#" class="dropdown-item">Link 3</a>
+				</div>
+			</li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+        </ul>
+        <br>
+        <div style="margin-bottom: 550px;"></div>
+    </div>
+</body>
+</html>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  
